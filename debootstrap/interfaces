@@ -1,0 +1,15 @@
+auto eth0
+  iface eht0 inet static
+  address 192.168.0.201
+  network 255.255.255.0
+  gateway 192.168.0.1
+  name-server 192.168.0.1
+  
+#auto wlan0
+#  iface wlan0 inet static
+#  address 192.168.0.101
+#  netmask 255.255.255.0
+#  gateway 192.168.0.1
+#  nameserver 192.168.0.1
+#  wpa-ssid Buffalo-G-1A2B 
+#  wpa-psk e78bf3c4a82cb25c339cefe58aaec98152b28a13d9c45ab31c22b64a5f69bdd2
